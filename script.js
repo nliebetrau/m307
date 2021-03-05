@@ -38,3 +38,4 @@ function insertNew(data) {
     cell7 = newRow.insertCell(7);
     cell7.innerHtml = '<a>Delete</a>';
 }
+
