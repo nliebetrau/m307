@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli('localhost','root','',"m307") or die(mysqli_error($mysqli));
+$mysqli = new mysqli('m307nli','nliebetrau','AAAA1234',"m307") or die(mysqli_error($mysqli));
 
 if (isset($_POST['save'])) {
     $name = $_POST['name'];
